@@ -1,0 +1,183 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
+li {
+    list-style: none;
+    font-size: 25px;
+}
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover,
+a:hover img {
+    color: #fff;
+    opacity: 0.5;
+    transition: all .3s;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header {
+    background-image: url(../pngdate/naturalcafelogo.jpg);
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-list {
+    display: inline-block;
+}
+
+.navbar {
+    background-color: #385120;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar a {
+    font-size: 20px !important;
+}
+
+.custom-hamburger .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.copy-container {
+    background-image: url(../pngdate/menu_background.png);
+    background-size: cover;
+    height: 635px;
+}
+
+.whitebackground {
+    background-color: #fff;
+    max-width: 950px;
+    height: 415px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+.about-text {
+    display: block;
+    margin: 0 auto;
+}
+
+.main {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.contents-menu {
+    max-width: 950px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.contents-menu h4 {
+    font-size: 30px;
+}
+
+.btn, .btn:visited, .btn:link {
+    display: block;
+    margin: 0 auto;
+    background-color: #729c4c;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 3px 3px #5f823f;
+}
+
+@media (min-width: 768px) {
+    .btn {
+        width: 264px;
+        height: 44px;
+    }
+}
+
+.btn:hover {
+    color: #fff;
+    transition: all .3s;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.btn:active {
+    color: #fff;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    box-shadow: none;
+}
+
+.news-wrapper, .banner-wrapper {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.contents-news .news-topics {
+    margin-top: -2px;
+    border-top: 2px solid #828486;
+    border-bottom: 2px solid #828486;
+    display: block;
+    color: #000000;
+    text-align: left;
+}
+
+.contents-news {
+    background-image: url(../pngdate/menu_background.png);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #385120;
+    text-align: center;
+}
+
+.footer-list {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.footer h2 {
+    font-size: 40px;
+}
+
+.footer-list h2, li {
+    display: block;
+    float: left;
+    color: #fff;
+}
+
+.footer p {
+    color: #fff;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.footer-sp {
+    display: block;
+    float: none;
+    color: #fff;
+}
